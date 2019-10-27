@@ -6,10 +6,11 @@ def key_for_min_value(name_hash)
   if name_hash.length == 0
     return nil  
 else 
-name_hash.collect do |name, value| 
-  
-  
-  binding.pry
+lowest_value == 0 || value < lowest_value
+      lowest_value = value 
+      lowest_key = key
+    end
+  end
+  lowest_key
 end
-end
-end
+ 
