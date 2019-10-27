@@ -12,6 +12,5 @@ lowest_value == 0 || value < lowest_value
     end
   end
   lowest_key
-end
  end
  end
